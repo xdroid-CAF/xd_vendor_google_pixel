@@ -16,4 +16,5 @@ runtime_resource_overlay {
     name: "PixelFrameworksOverlay",
     product_specific: true,
     sdk_version: "current",
+    overrides: ["AccentColorPixelBlueOverlay", "FontGoogleSansOverlay"],
 }
