@@ -1,5 +1,5 @@
 -product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
--product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED
+-product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/default-permissions/default-permissions.xml
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/res/images/charger/battery_fail.png
