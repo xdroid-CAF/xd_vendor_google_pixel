@@ -41,7 +41,13 @@
     </exception>
     -->
 
-	<exception
+    <exception
+            package="com.google.intelligence.sense">
+        <!-- Record Audio -->
+        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+    </exception>
+
+    <exception
             package="com.google.android.apps.pixelmigrate">
         <!-- External storage -->
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
@@ -58,9 +64,13 @@
     </exception>
 
     <exception
-                  package="com.google.intelligence.sense">
-              <!-- Record Audio -->
-              <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+            package="com.verizon.mips.services">
+        <!-- Call -->
+        <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
+        <!-- Phone -->
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+        <!-- SMS -->
+        <permission name="android.permission.RECEIVE_SMS" fixed="false"/>
     </exception>
 
     <exception
@@ -84,22 +94,18 @@
         <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
     </exception>
 
-    <exception
-            package="com.verizon.mips.services">
-        <!-- Call -->
-        <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
-        <!-- Phone -->
-        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
-        <!-- SMS -->
-        <permission name="android.permission.RECEIVE_SMS" fixed="false"/>
-    </exception>
-
     <exception package="com.google.android.settings.intelligence">
         <!-- Calendar -->
         <permission name="android.permission.READ_CALENDAR" fixed="true"/>
         <!-- Location -->
         <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
         <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false"/>
+    </exception>
+
+    <exception package="com.google.android.apps.cbrsnetworkmonitor">
+        <!-- Location access to create CBRS geofences-->
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="true"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="true"/>
     </exception>
 
     <exception package="com.google.android.apps.scone">
