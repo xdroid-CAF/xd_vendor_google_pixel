@@ -2,6 +2,8 @@
 -product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/default-permissions/default-permissions.xml
 product/etc/permissions/privapp-permissions-google-p.xml
+product/etc/firmware/music_detector.descriptor
+product/etc/firmware/music_detector.sound_model
 product/etc/res/images/charger/battery_fail.png
 product/etc/res/images/charger/battery_scale.png
 product/etc/res/images/charger/main_font.png
