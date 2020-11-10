@@ -114,4 +114,7 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
     RecorderPrebuilt \
-    SettingsIntelligenceGooglePrebuilt
+    SettingsIntelligenceGooglePrebuilt \
+    TurboPrebuilt \
+    Flipendo \
+    TurboAdapter

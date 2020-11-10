@@ -93,4 +93,7 @@ product/media/audio/ui/WirelessChargingStarted.ogg
 -product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
 -product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;PRESIGNED;OVERRIDES=SoundRecorder,QtiSoundRecorder
 -product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence
+-product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED;OVERRIDES=Turbo
 system_ext/etc/permissions/privapp-permissions-google-se.xml
+-system_ext/app/Flipendo/Flipendo.apk
+-system_ext/priv-app/TurboAdapter/TurboAdapter.apk;PRESIGNED
