@@ -1,5 +1,3 @@
--product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
--product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/default-permissions/default-permissions.xml
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/firmware/music_detector.descriptor
@@ -90,10 +88,6 @@ product/media/audio/ui/Unlock.ogg
 product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
--product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
--product/priv-app/RecorderPrebuilt/RecorderPrebuilt.apk;PRESIGNED;OVERRIDES=SoundRecorder,QtiSoundRecorder
 -product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence
 -product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED;OVERRIDES=Turbo
 system_ext/etc/permissions/privapp-permissions-google-se.xml
--system_ext/app/Flipendo/Flipendo.apk
--system_ext/priv-app/TurboAdapter/TurboAdapter.apk;PRESIGNED
