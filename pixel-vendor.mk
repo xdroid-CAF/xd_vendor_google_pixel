@@ -109,4 +109,5 @@ PRODUCT_PACKAGES += \
     MarkupGoogle \
     TurboPrebuilt \
     SoundPickerPrebuilt \
-    DevicePersonalizationPrebuiltPixel2020
+    DevicePersonalizationPrebuiltPixel2020 \
+    WallpapersBReel2020

@@ -1,5 +1,6 @@
 /**
  * Copyright (C) 2020 Paranoid Android
+ * Copyright (C) 2021 a xyzprjkt
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -60,6 +61,17 @@ android_app_import {
 	name: "SoundPickerPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "WallpapersBReel2020",
+	owner: "google",
+	apk: "proprietary/product/app/WallpapersBReel2020/WallpapersBReel2020.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
