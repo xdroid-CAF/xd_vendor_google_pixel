@@ -1,4 +1,5 @@
 # Copyright (C) 2020 Paranoid Android
+# Copyright (C) 2021 a xyzprjkt
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +18,6 @@ $(call inherit-product-if-exists, vendor/google/pixel/pixel-vendor.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    PixelDocumentsUIOverlay \
     PixelFrameworksOverlay \
     PixelSettingsOverlay \
     PixelSystemUIOverlay
